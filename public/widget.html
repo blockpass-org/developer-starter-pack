@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <!-- BLOCKPASS WIDGET SCRIPT -->
+  <script>(function () {
+      const s = document.createElement('script');
+      s.src = 'https://cdn.blockpass.org/widget/scripts/release/1.0.1/embeded.prod.js';
+      s.async = true;
+      window.bpWidget = {
+        // replace by environment
+        env: 'staging',
+
+        // ClientId
+        clientId: '3rd_service_demo',
+
+        // ServiceName (display on button)
+        serviceName: 'Demo Service',
+
+        // IMPORTANT: replace with your referal ID
+        refId: 'ref-id-here:' + Date.now(),
+
+        onSSOComplete: result => {
+          //Todo: Put your logic here
+          alert('login success. See console for result')
+          console.log(result)
+        }
+      };
+      document.body.appendChild(s);
+    })();
+  </script>
+  <div id="widget-bp123" />
+</body>
+
+</html>
