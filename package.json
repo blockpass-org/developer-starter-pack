@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blockpass-org/developer-starter-pack.git"
   },
-  "author": "",
+  "scripts": {
+    "dev": "node app"
+  },
+  "author": "Blockpass",
   "license": "ISC",
   "dependencies": {
     "bp-sdk-server": "github:blockpass-org/blockpass-serversdk#v1.3",

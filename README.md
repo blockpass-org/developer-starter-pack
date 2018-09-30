@@ -9,7 +9,7 @@ Note:
 
 - This store user data under Memory `SimpleStorage.js`. Please switch to persistent data storage in your production project
 
-## How to setup your service via Developer Page
+## How to setup your service endpoints config
 
 To be update
 
