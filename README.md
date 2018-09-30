@@ -1,9 +1,10 @@
 ## Blockpass Starter Pack
 
 This project pre-setup:
-[x] Blockpass WebSDK `/public/index.html`
-[x] Blockpass Widget `/public/widget.html`
-[x] Express server with Blockpass ServerSDK
+
+- [x] Blockpass WebSDK `/public/index.html`
+- [x] Blockpass Widget `/public/widget.html`
+- [x] Express server with Blockpass ServerSDK
 
 Note:
 
