@@ -27,7 +27,7 @@ KYCModel.DB = []
 class FileStorage {
   static async writeFile({ fileName, mimetype, fileBuffer }) {
     const _id = Date.now()
-    Mem[_id] = { fileName, mimetype, fileBuffer }
+    FileStorage.Mem[_id] = { fileName, mimetype, fileBuffer }
     return {
       _id: _id
     }
